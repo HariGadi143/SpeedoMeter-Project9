@@ -1,0 +1,61 @@
+.mainContainer {
+  max-width: 1400px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.speedometerContainer {
+  height: fit-content;
+  padding: 100px;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.speedometerContainer h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+.speedometerContainer img {
+  height: 300px;
+  height: 300px;
+}
+.speedometerContainer h3 {
+  font-size: 24px;
+  color: white;
+  font-size: 500;
+}
+.speedometerContainer p {
+}
+.speedometerContainer div {
+    display: flex;
+    gap: 20px;
+}
+.speedometerContainer div button:nth-child(1){
+  background-color: #0b69ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.speedometerContainer div button:nth-child(2){
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
